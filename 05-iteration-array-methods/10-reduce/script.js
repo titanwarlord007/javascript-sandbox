@@ -27,4 +27,7 @@ const total = cart.reduce(function (acc, product) {
   return acc + product.price;
 }, 0);
 
+//Reducer tip: to return an arr
+//accumulator.push(currentValue); #must return the accumulator to return the new array
+
 console.log(total);
